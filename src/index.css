@@ -21,8 +21,11 @@
 
 .app {
   max-width: 1000px;
-  margin: 0 auto;
+  margin-left: 70px;
+  margin-top: 50px;
   padding: 1rem 1rem;
+  font-size: 45px;
+  font-weight: 500;
 }
 
 nav {
