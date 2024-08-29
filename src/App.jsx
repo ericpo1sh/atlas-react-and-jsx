@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Components/Header.jsx'
 import Section from './Components/Section.jsx';
 import HelpfulResource from './Components/HelpfulResource.jsx';
+import AboutMe from './Components/AboutMe.jsx';
 
 function App() {
   return <div className="app">
@@ -23,6 +24,7 @@ function App() {
       <HelpfulResource label='Event Handling' link='https://atlas-jswank.github.io/blog/jsx/#event-handling'></HelpfulResource>
       <HelpfulResource label='Rendering Children' link='https://atlas-jswank.github.io/blog/jsx/#rendering-children'></HelpfulResource>
     </Section>
+    <AboutMe/>
   </div>;
 }
 
