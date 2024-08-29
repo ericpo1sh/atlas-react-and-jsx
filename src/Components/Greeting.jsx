@@ -4,23 +4,23 @@ import eveningImg from '../assets/evening.svg'
 import nightImg from '../assets/night.svg'
 
 const Greeting = () => {
-  const currentHour = new Date().getHours;
+  const currentHour = new Date().getHours();
 
   let greeting;
   let image;
 
-  if (currentHour < 12) {
-    greeting = 'Good Morning!'
-    image = dayImg
-  } else if (currentHour < 18) {
-    greeting = 'Good Afternoon!'
-    image = dayImg
-  } else if (currentHour < 21) {
-    greeting = 'Good Evening!'
-    image = eveningImg
+  if (currentHour >= 6 && currentHour < 12) {
+    greeting = 'Good Morning!';
+    image = dayImg;
+  } else if (currentHour >= 12 && currentHour < 17) {
+    greeting = 'Good Afternoon!';
+    image = dayImg;
+  } else if (currentHour >= 17 && currentHour < 21) {
+    greeting = 'Good Evening!';
+    image = eveningImg;
   } else {
-    greeting = 'Good Night!'
-    image = nightImg
+    greeting = 'Good Night!';
+    image = nightImg;
   }
 
   return (
