@@ -3,6 +3,7 @@ import Header from './Components/Header.jsx'
 import Section from './Components/Section.jsx';
 import HelpfulResource from './Components/HelpfulResource.jsx';
 import AboutMe from './Components/AboutMe.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
   return <div className="app">
@@ -25,6 +26,7 @@ function App() {
       <HelpfulResource label='Rendering Children' link='https://atlas-jswank.github.io/blog/jsx/#rendering-children'></HelpfulResource>
     </Section>
     <AboutMe/>
+    <Footer/>
   </div>;
 }
 
