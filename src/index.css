@@ -20,6 +20,7 @@
 }
 
 .app {
+  max-width: 90%;
   margin: 0 auto;
   padding: 1rem 1rem;
   font-size: 30px;
